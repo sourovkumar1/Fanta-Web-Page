@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.fanta{
+  width: 100%;
+  height: 100vh;
+  background-color: #ec7e2a;
+  padding: 4vh 0;
+}
+
+.fannta-orange ul{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12vh;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+ul img{
+  width: 23vh;
+}
+
+/* header section end  */
+
+.fanta-tl img{
+  position: absolute;
+  width: 50vh;
+  top: 25%;
+  z-index: 1;
+}
+
+.fanta-content{
+  width: 70vh;
+  margin-left: 60vh;
+  margin-top: 10%;
+}
+.fanta-content h2{
+  color: #fff;
+  font-size: 50px;
+}
+
+.fanta-content h4{
+  margin-top: 12px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.fanta-content p{
+  color: #fff;
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.fanta-content button{
+  width: 20vh;
+  height: 5vh;
+  border-radius: 8px;
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.fanta-image{
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+.fanta-image img{
+  width: 50vh;
+}
+
+.fanta-image #l-or{
+  position: absolute;
+  width: 64vh;
+  right: 50px;
+}
+
+.fanta-image #r-or{
+  position: absolute;
+  right: -100px;
+
+}
